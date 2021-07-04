@@ -6,6 +6,7 @@
 ## 1. 기본적인 구현 문제를 풀어볼까요?
 - [고양이](https://www.acmicpc.net/problem/10171)
 - [A+B](https://www.acmicpc.net/problem/1000)
+- [A/B](https://www.acmicpc.net/problem/1008)
 - [사칙연산](https://www.acmicpc.net/problem/10869)
 - [이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930)
 - [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912)
@@ -14,7 +15,10 @@
 - [네 수](https://www.acmicpc.net/problem/10824)
 - [최소, 최대](https://www.acmicpc.net/problem/10818)
 - [치킨 두 마리 (...)](https://www.acmicpc.net/problem/14489)
-
+- [시험 점수](https://www.acmicpc.net/problem/5596)
+- [타임 카드](https://www.acmicpc.net/problem/5575) (hour(시간), minute(분)을 초(second)와 관련된 수식으로 나타낼 수 있을까요?)
+- [과자](https://www.acmicpc.net/problem/10156)
+- [쿠폰](https://www.acmicpc.net/problem/10179)
 
 ## 2. 1차 반복문을 이용한 구현 문제를 풀어볼까요?
 - [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935)
@@ -26,6 +30,7 @@
 - [A+B - 7](https://www.acmicpc.net/problem/11021)
 - [A+B - 8](https://www.acmicpc.net/problem/11022)
 - [조교는 새디스트야!!](https://www.acmicpc.net/problem/14656)
+- [상근날드](https://www.acmicpc.net/problem/5543)
 
 ## 3. 문자열을 알아볼까요?
 
