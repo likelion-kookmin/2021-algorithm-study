@@ -1,7 +1,7 @@
 # 걷기 단계
 
 ## 0. 혹시 알고리즘 문제를 풀기로 결정한 언어 문법을 잘 모르시나요? 그럼 걸음마 단계에 있는 기초 100제 문제집을 먼저 풀어주세요!
-[걸음마 단계 문제집](https://github.com/likelion-kookmin/2021-algorithm-study/tree/main/%EA%B1%B8%EC%9D%8C%EB%A7%88#2-%EC%A0%95%ED%95%9C-%EC%96%B8%EC%96%B4%EC%97%90-%EB%94%B0%EB%9D%BC-%EC%95%84%EB%9E%98-%EB%AC%B8%EC%A0%9C%EC%A7%91%EC%9D%84-%ED%92%80%EC%96%B4%EB%B4%85%EC%8B%9C%EB%8B%A4)
+[걸음마 단계 문제집](https://github.com/likelion-kookmin/2021-algorithm-study/tree/main/0.%20%EA%B1%B8%EC%9D%8C%EB%A7%88#2-%EC%A0%95%ED%95%9C-%EC%96%B8%EC%96%B4%EC%97%90-%EB%94%B0%EB%9D%BC-%EC%95%84%EB%9E%98-%EB%AC%B8%EC%A0%9C%EC%A7%91%EC%9D%84-%ED%92%80%EC%96%B4%EB%B4%85%EC%8B%9C%EB%8B%A4)
 
 ## 1. 기본적인 구현 문제를 풀어볼까요?
 - [고양이](https://www.acmicpc.net/problem/10171)
