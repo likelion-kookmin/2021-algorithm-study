@@ -1,4 +1,4 @@
-# 달리기 WIP
+# 달리기
 
 ## 1.먼저 이중 반복문을 단련해볼까요?
 - [별 찍기 - 1](https://www.acmicpc.net/problem/2438)
@@ -27,7 +27,8 @@
 
 ## 진법과 관련된 문제를 풀어볼까요?
 - [9진수](https://www.acmicpc.net/problem/14491)
-
+- [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935)
+- [이건 무슨 진법이지?](https://www.acmicpc.net/problem/13877)
 
 ## 기본적인 그리디 문제를 풀어볼게요!
 - [우유 축제](https://www.acmicpc.net/problem/14720)
@@ -38,3 +39,5 @@
 
 ## 정렬을 쓰는 그리디 문제를 풀어볼게요
 
+## 수학을 활용하는 문제를 풀어볼게요.
+- [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) (이 문제는 어려울 수 있어요. 생각이 나지 않는다면 넘겨도 됩니다.)
