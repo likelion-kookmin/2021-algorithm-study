@@ -111,6 +111,16 @@ f(0)이 호출되었을 때, 당연하게도 0이 출력될거라고 생각하�
 - [별 찍기 - 10](https://www.acmicpc.net/problem/2447)
 - [별 찍기 - 11](https://www.acmicpc.net/problem/2448)
 
+
+## 진법 기억하시나요?
+
+
+
+## 진법과 관련된 문제를 풀어볼까요?
+- [9진수](https://www.acmicpc.net/problem/14491)
+- [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935)
+- [이건 무슨 진법이지?](https://www.acmicpc.net/problem/13877)
+
 ## 스택을 활용한 문제를 풀어볼까요?
 
 
