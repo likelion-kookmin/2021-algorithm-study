@@ -11,6 +11,7 @@
 - [이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930)
 - [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912)
 - [짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)
+- [연세대학교](https://www.acmicpc.net/problem/15680)
 - [세 수](https://www.acmicpc.net/problem/10817)
 - [네 수](https://www.acmicpc.net/problem/10824)
 - [최소, 최대](https://www.acmicpc.net/problem/10818)
@@ -19,6 +20,13 @@
 - [타임 카드](https://www.acmicpc.net/problem/5575) (hour(시간), minute(분)을 초(second)와 관련된 수식으로 나타낼 수 있을까요?)
 - [과자](https://www.acmicpc.net/problem/10156)
 - [쿠폰](https://www.acmicpc.net/problem/10179)
+- [와글와글 숭고한](https://www.acmicpc.net/problem/17388)
+- [사분면 고르기](https://www.acmicpc.net/problem/14681)
+- [시험 성적](https://www.acmicpc.net/problem/9498)
+- [특별한 날](https://www.acmicpc.net/problem/10768)
+- [파일 옮기기](https://www.acmicpc.net/problem/11943)
+- [과목 선택](https://www.acmicpc.net/problem/11948)
+
 
 ## 2. 1차 반복문을 이용한 구현 문제를 풀어볼까요?
 - [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935)
@@ -31,6 +39,8 @@
 - [A+B - 8](https://www.acmicpc.net/problem/11022)
 - [조교는 새디스트야!!](https://www.acmicpc.net/problem/14656)
 - [상근날드](https://www.acmicpc.net/problem/5543)
+- [10부제](https://www.acmicpc.net/problem/10797)
+- [공](https://www.acmicpc.net/problem/1547)
 
 ## 3. 문자열을 알아볼까요?
 
@@ -56,3 +66,9 @@
 - [나는 친구가 적다 (Small)](https://www.acmicpc.net/problem/16171) (미리 맛보는 그리디)
 
 ## 4. 이제 한번 달려봅시다! 달리기 단계로 이동해볼까요 😄
+
+
+## 번외문제
+- [나이 계산하기](https://www.acmicpc.net/problem/16199)
+- [카드 뽑기](https://www.acmicpc.net/problem/16204)
+- [베시와 데이지](https://www.acmicpc.net/problem/16431)
