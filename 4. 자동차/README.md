@@ -13,7 +13,8 @@
 ## 브루트 포스의 기본 문제를 풀어볼까요?
 
 ## 브루트 포스와 DFS/BFS를 활용하는 문제를 풀어볼까요?
-
+- [순열](https://www.acmicpc.net/problem/9742)
+- [Z](https://www.acmicpc.net/problem/1074)
 ## 백트래킹에 대해서 알아볼까요?
 
 ## 분할 정복
@@ -24,3 +25,5 @@
 ## 이제 비행기를 타러 가봅시다!
 
 ## 번외 문제
+- [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) (이 문제는 어려울 수 있어요. 생각이 나지 않는다면 넘겨도 됩니다.)
+
