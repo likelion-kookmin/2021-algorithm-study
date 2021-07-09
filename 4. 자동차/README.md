@@ -71,6 +71,8 @@ TODO: DP 설명
 ### 돌게임 시리즈
 - [돌 게임](https://www.acmicpc.net/problem/9655)
 - [돌 게임 2](https://www.acmicpc.net/problem/9656)
+- [돌 게임 5](https://www.acmicpc.net/problem/9659)
+- [돌 게임 6](https://www.acmicpc.net/problem/9660)
 
 ### 기타
 - [기억력 테스트 7](https://codeup.kr/problem.php?id=3007)
