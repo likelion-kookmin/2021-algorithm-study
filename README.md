@@ -4,22 +4,22 @@
 
 | 이름 | 단계 |Github repository |
 |-|-|-|
-| 김신건 | 스터디장 | |
-| 정지윤 | 걸음마 | |
-| 김준엽 | 걷기 | |
-| 석준환 | 걷기 | |
-| 구예진 | 걷기 | |
-| 이현지 | 걷기 | |
-| 김수빈 | 달리기 | |
-| 최유찬 | 달리기 | |
-| 강지수 | 달리기 | |
-| 강승원 | 달리기 | |
-| 김민정 | 달리기 | |
-| 평주영 | 달리기 | |
-| 노준영 | 자전거 | |
-| 허태정 | 자전거 | |
-| 권소예 | 자전거 | |
-| 이기정 | 자동차 | |
+| 김신건 | 스터디장 | [repository]() |
+| 정지윤 | 걸음마 | [repository](https://github.com/Chungjiyoon/algorithm.git) |
+| 김준엽 | 걷기 | [repository](https://github.com/jun-yub-kim/algorithm_study) |
+| 석준환 | 걷기 | [repository](https://github.com/clark1015/algorithm_study-likelion-) |
+| 구예진 | 걷기 | [repository](https://github.com/kyejin0412/algorithm) |
+| 이현지 | 걷기 | [repository](https://github.com/hyunji12/likelion_algorithm) |
+| 김수빈 | 달리기 | [repository](https://github.com/soosbk/likelion_algorithm) |
+| 최유찬 | 달리기 | [repository](https://github.com/cychann/Algorithm) |
+| 강지수 | 달리기 | [repository](https://github.com/kjsoo-1010/algorithm_study.git) |
+| 강승원 | 달리기 | [repository]() |
+| 김민정 | 달리기 | [repository]() |
+| 평주영 | 달리기 | [repository](https://github.com/Anthologia/algorithm) |
+| 노준영 | 자전거 | [repository](https://github.com/JunYoung0131/2021_algorithm_study) |
+| 허태정 | 자전거 | [repository](https://github.com/Aqudi/AlgorithmProblems) |
+| 권소예 | 자전거 | [repository](https://github.com/soyekwon/Algorithm.git) |
+| 이기정 | 자동차 | [repository]() |
 
 
 ## 스터디 진행 방식
@@ -31,7 +31,7 @@
     - 문제를 풀던 중에, 너무 어렵다! 질문이 있다! 하면 꼭 카톡방에 질문을 올려주세요.
     - 혼자 맨땅에 헤딩을 하면서 실력이 느는 것도 좋지만, 스터디를 활용하면 더욱 좋잖아요?
 4. 해결한 코드를 해당 레포지터리에 올립니다. (추가적으로, 풀이방법 또는 공부한 내용을 마크다운 파일로 작성하여 올려주시면 더욱 좋습니다!)
-5. 해결한 문제를 스터디 톡방에 `단계 문제이름 풀이 완료` (ex. `걷기 고양이 풀이 완료`) 메세지를 남겨주세요. (시간 상관없이 올려주세요.. -> 아마..알림을 꺼둬야겠죠..? 카톡방 하나를 더 팔까요 ㅎㅎ) 
+5. 해결한 문제를 스터디 슬랙에 문제 링크 혹은 OJ 플랫폼, 문제 이름 혹은 번호를 남겨주시고, 풀이 링크 또는 풀이 전문을 첨부해주세요. 
 6. 스터디장 혹은 다른 부원들이 여러분의 코드를 보고 github 레포에 이슈를 남길거에요. 확인해주시고, 더욱 발전된 알고리즘 문제 풀이를 하실 수 있게 됩니다!
 
 ## 😄 단계 기준 
