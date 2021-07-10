@@ -143,33 +143,120 @@ TODO: 버블 소트 추가
 
 TODO: 이미지 추가
 
+버블 소트 말고도, 엄청나게 많은 정렬 알고리즘이 존재합니다.
 
+병합 정력, 퀵 정렬, 타노스 정렬(?!), ... 
 
-## 정렬을 쓰는 기본적인 문제를 풀어볼까요?
+정렬 알고리즘들은 각각의 장점과 단점이 존재하고, 구현 방식이 다르기도 하고,
 
-TODO: 정렬문제 추가
+각 정렬 알고리즘마다 걸리는 시간, 사용하는 메모리의 양이 다릅니다. 그럼 상황에 맞춰서 정렬 알고리즘을 선택해야겠죠? (어떻게 다른지는 직접 찾아보시면서 알아봐주세요!)
 
+하지만, 대부분의 프로그래밍 언어에서는 기본적으로 최적화된 정렬 알고리즘을 사용할 수 있게 해줍니다.
 
+예를 들자면, (l 이 정렬하려는 리스트 혹은 배열일 때) python에서는 l.sort(), C/C++(STL)에서는 sort(l, l+10)와 같이 사용할 수 있습니다.
+
+따라서, 어지간해서는 알고리즘 문제를 푸실때는 주어지는 sort 함수/메서드를 활용하시면 됩니다.
+
+> 참고) 아래 정렬 알고리즘이 가시화된 영상을 보시면서 어떤 정렬이 빠른지 보시면 될 것 같습니다. 영상 좌상단에 정렬 알고리즘의 이름이 표시됩니다. ㅎㅎ
+
+[![15 Sorting Algorithms in 6 Minutes](https://img.youtube.com/vi/kPRA0W1kECg/0.jpg)](https://www.youtube.com/watch?v=kPRA0W1kECg&ab_channel=TimoBingmann)
+
+## 정렬을 활용하는 문제들을 풀어볼까요?
+
+- [세수정렬](https://www.acmicpc.net/problem/2752) : 정렬 part이긴 하지만 정렬을 안쓰고도 해결할 수 있을까요?
+- [거북이](https://www.acmicpc.net/problem/2959)
+- [콘테스트](https://www.acmicpc.net/problem/5576)
+- [수 정렬하기](https://www.acmicpc.net/problem/2750)
+- [애너그램](https://www.acmicpc.net/problem/6996)
+- [단어 퍼즐](https://www.acmicpc.net/problem/9946)
+- [단어 정렬](https://www.acmicpc.net/problem/1181)
+- [등수 구하기](https://www.acmicpc.net/problem/1205)
+- [소트인사이드](https://www.acmicpc.net/problem/1427)
+- [도비의 난독증 테스트](https://www.acmicpc.net/problem/2204) : 어떻게 하면 대소문자를 구분하지 않고 정렬할 수 있을까요?
+- [N번째 큰 수](https://www.acmicpc.net/problem/2693)
+- [수 정렬하기 2](https://www.acmicpc.net/problem/2751)
+- [점수 계산](https://www.acmicpc.net/problem/2822)
+- [수학숙제](https://www.acmicpc.net/problem/2870)
+- [종이자르기](https://www.acmicpc.net/problem/2628)
+- [아시아 정보올림피아드](https://www.acmicpc.net/problem/2535) : python에서는 리스트 혹은 튜플을 정렬하면 되지만... C/C++에서는 구조체를 활용해야겠죠?
 
 ## 그리디 문제란?
 
-TODO: 그리디 설명 추가
+
 
 ## 기본적인 그리디 문제를 풀어볼게요!
 - [우유 축제](https://www.acmicpc.net/problem/14720)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
 ## 정렬을 쓰는 그리디 문제를 풀어볼게요
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
 
-## 수학을 활용하는 문제를 풀어볼게요.
+## 잠깐! 수학을 활용하는 문제를 풀어볼게요.
 - [삼각형 외우기](https://www.acmicpc.net/problem/10101)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
 
 ## 소수를 코드로 어떻게 알아낼까?
+
 
 
 
 ## 소수와 관련된 문제를 풀어볼까요?
 - [소수 찾기](https://www.acmicpc.net/problem/1978)
 - [소수](https://www.acmicpc.net/problem/2581)
-
-
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
