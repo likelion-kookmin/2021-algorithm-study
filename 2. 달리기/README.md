@@ -291,28 +291,29 @@ for i in range(n-1, 0, -1):  # n-1,...1까지 반복
 - [UCPC는 무엇의 약자일까?](https://www.acmicpc.net/problem/15904)
 - [스네이크버드](https://www.acmicpc.net/problem/16435)
 
-## 잠깐! 수학을 활용하는 문제를 풀어볼게요.
+## 잠깐! 수학 + 구현 문제를 풀어볼게요.
 - [삼각형 외우기](https://www.acmicpc.net/problem/10101)
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [삼각 무늬 - 1](https://www.acmicpc.net/problem/11320)
+- [삼각 무늬 - 2](https://www.acmicpc.net/problem/11312)
+- [2의 제곱인가?](https://www.acmicpc.net/problem/11966)
+- [개미](https://www.acmicpc.net/problem/11880)
+- [창용이의 시계](https://www.acmicpc.net/problem/12840)
+- [행운의 편지](https://www.acmicpc.net/problem/13311) : 넌센스!
+- [세 막대](https://www.acmicpc.net/problem/14215)
+- [덧셈과 곱셈](https://www.acmicpc.net/problem/14579)
+- [냉동식품](https://www.acmicpc.net/problem/14625)
+- [명장 남정훈](https://www.acmicpc.net/problem/15734)
+- [헬멧과 조끼](https://www.acmicpc.net/problem/15781)
+
+## 소수를 코드로 어떻게 알아낼까?(작성중... 😭)
+
+소수들을 알아내는 코드를 짜려고 합니다. 이때, 어떤 아이디어로 구할 수 있을까요?
+물론 아래와 같은 이중 반복문을 이용해서 구할 수도 있습니다.
 
 
-## 소수를 코드로 어떻게 알아낼까?
+다만 이건 너무 시간이 오래 걸리는 방법입니다.
+
+우리는 에라토스테네스의 채를 쓰면 더 효율적으로 소수들을 구할 수 있어요.
 
 
 
@@ -320,17 +321,6 @@ for i in range(n-1, 0, -1):  # n-1,...1까지 반복
 ## 소수와 관련된 문제를 풀어볼까요?
 - [소수 찾기](https://www.acmicpc.net/problem/1978)
 - [소수](https://www.acmicpc.net/problem/2581)
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
 - []()
 - []()
 - []()
