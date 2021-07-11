@@ -128,6 +128,7 @@ BFS도 마찬가지로 여기까지만 알려드리고, 직접 한번 찾아보�
 - [양 한마리... 양 두마리...](https://www.acmicpc.net/problem/11123)
 - [현수막](https://www.acmicpc.net/problem/14716)
 - [빙산](https://www.acmicpc.net/problem/2573)
+- [팀배분](https://www.acmicpc.net/problem/1953)
 
 ## 다이나믹 프로그래밍에 대해서 알아볼까요?
 
