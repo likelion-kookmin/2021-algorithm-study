@@ -14,7 +14,7 @@
 | 최유찬 | 달리기 | [repository](https://github.com/cychann/Algorithm) |
 | 강지수 | 달리기 | [repository](https://github.com/kjsoo-1010/algorithm_study.git) |
 | 강승원 | 달리기 | [repository]() |
-| 김민정 | 달리기 | [repository]() |
+| 김민정 | 달리기 | [repository](https://github.com/minjj0905/PS) |
 | 평주영 | 달리기 | [repository](https://github.com/Anthologia/algorithm) |
 | 노준영 | 자전거 | [repository](https://github.com/JunYoung0131/2021_algorithm_study) |
 | 허태정 | 자전거 | [repository](https://github.com/Aqudi/AlgorithmProblems) |
