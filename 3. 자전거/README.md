@@ -153,16 +153,155 @@ FILO(First In, Last Out) 라는 규칙을 가지고 있는데요.
 
 말그대로 스택은 처음으로(먼저) 들어간것이 맨 마지막(나중에) 나오는 규칙을 가진 자료구조라는 것입니다.
 
-## 스택을 활용한 문제를 풀어볼까요?
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+한번 아래 그림을 볼까요?
 
+![stack](./img/stack.jpeg)
+
+[image 출처](https://medium.com/@songjaeyoung92/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-javascript-stack-%EC%9D%B4%EB%9E%80-31f9bbb84897)
+
+```
+스택은 마치 막혀있는 골목, 혹은 위 링크의 글과 같이 프링글스에 비유하고 합니다.
+
+먼저 비어있는 스택에 1을 넣었습니다(push).
+
+그리고 스택에 2를 넣습니다(push). 
+
+스택에는 총 2개(size)의 데이터가 들어가있겠죠?
+
+그리고, 스택에 있는 데이터(top)를 확인하려고 하면
+
+1은 바로 확인할 수 없고, 먼저 2를 빼고(pop)나서야 top에 1이 있는 것을 확인할 수 있습니다.
+```
+
+굉장히 심플한 자료구조입니다. 🐶
+
+근데, 이걸 문제 풀이에 어떻게 써먹는데! 라는 생각이 들 수 있습니다.
+
+그래서 스택을 이용한 문제 풀이 예시를 들어보겠습니다. 
+
+스택은 아이디어가 중요하기 때문에, 아래 문제들을 예시를 들어보면서 설명을 하려합니다.
+
+- [막대기](https://www.acmicpc.net/problem/17608)
+- [괄호](https://www.acmicpc.net/problem/9012)
+
+### 막대기 문제 풀이
+
+> 문제 내용은 꼭 링크에 들어가서 먼저 확인해주세요.
+
+이제 우리가 뭘 생각해봐야 할까요? 먼저 오른쪽에서 봤을 때 어떻게 보일까요?
+
+오른쪽에서 보는 걸 기준으로 점점 크기가 작아지는 막대기를 볼 수 있습니다.
+
+왜? 오른쪽에 있는 막대가 왼쪽에 있는 막대보다 크다면, 왼쪽에 있는 막대가 안보이니까요.
+
+그럼 아래 코드와 같이 스택의 아이디어를 이용해 풀어봅시다.
+
+먼저 이 문제는 python으로 구현해볼게요.
+
+```python
+# import sys
+# n = int(sys.stdin.readline())
+# L = [int(sys.stdin.readline()) for i in range(n)]
+"""
+python으로 이 문제를 풀려면, 위 입력 방식을 사용해야 합니다.
+python의 기본 입출력이 너무 느리기에... 이 문제에서는 어쩔 수 없이 이 방식을 사용해야 하고,
+일단 아래 코드와 같다고 생각해주시면 됩니다.
+"""
+
+n = int(input())
+L = [int(input()) for i in range(n)]
+
+stk = []
+
+"""
+놀랍게도, python에서는 리스트를 이용해서
+간단하게 stack을 사용할 수 있습니다.
+
+push의 개념은 append()로
+top의 개념은 stk[-1]로
+pop의 개념은 pop()으로
+size의 개념은 len(stk)로 말이죠.
+"""
+
+for i in range(0, n):
+  crt = L[i]
+  if len(stk) == 0: # stack이 비어있다면,
+    stk.append(L[i]) # stack에 그래도 값을 push한다.
+  else: # stack에 값이 들어가 있다면,
+    while len(stk) > 0 and stk[-1] < crt: # stack에 값이 있고, stack의 top이 현재값과 같거나 작으면, 계속해서
+      stk.pop() # pop한다.
+    stk.append(crt) # 이제 왼쪽에 현재값보다 작은 값이 없기 때문에 push한다.
+print(len(stk))
+  
+
+# 물론 이 문제는 다른 아이디어로도 풀 수 있고, 심지어 더 간단하게 풀 수 있습니다. 어떻게 하면 될까요? ㅎㅎ
+```
+
+
+### 괄호 문제 풀이
+
+> 문제 내용은 꼭 링크에 들어가서 먼저 확인해주세요.
+
+굉장히 실생활에서 익숙한 문제죠?
+
+바로 코드로 들어가서 보겠습니다.
+
+이번에는 C++ 코드로 볼게요.
+
+```cpp
+#include <iostream>
+#include <stack>
+using namespace std;
+// 직접 stack을 구현해서 써도 되지만, STL의 stack을 써서 더 편하게 문제 풀이를 해볼게요. 
+
+// 과연 아래 풀이가 정말 최적일까요? 더 간단하게 풀 수 있는 방법은 없을까요? 한번 생각해보시면 좋을 것 같아요.
+
+bool isVPS(string s) {
+  stack<char> stk; // 스택 선언
+
+  for(int i = 0; i < s.length(); i++) { // 문자열을 앞에서부터 쭉 탐색합니다.
+    if(s[i] == '(') { // 만약 현재 문자가 ( 여는 괄호 문자라면,
+      stk.push(s[i]); // 바로 스택에 넣어줍니다.
+    } else if(s[i] == ')') { // 만약 현재 문자가 ) 닫는 괄호 문자라면,
+      if(stk.size() == 0) return false; // 현재 스택에 쌓여있는 ( 여는 문자가 없다면, 이는 VPS가 아닙니다.
+      stk.pop(); // 현재 스택에 쌓여있는 ( 여는 문자가 있다면, 짝이 맞는 괄호가 있다는 의미이므로 stack에서 ( 를 하나 제거합니다.
+    }
+  }
+  if(stk.size() > 0) return false; // 모든 문자열을 훑었는데도, ( 여는 문자가 남아있다면 이는 VPS가 아닙니다.
+  return true; // 모든 제한 조건을 통과하였으니, 이는 VPS입니다. 
+}
+
+int main() {
+  int N;
+  string s;
+  cin >> N;
+  for(int i = 0; i < N; i++) {
+    cin >> s;
+    cout << (isVPS(s) ? "YES" : "NO") << "\n";
+  }
+
+  return 0;
+}
+```
+
+## 스택을 활용한 문제를 풀어볼까요?
+- [스택](https://www.acmicpc.net/problem/10828)
+- [거꾸로 출력하기 3](https://codeup.kr/problem.php?id=1402) : 스택을 이용하지 않아도 되지만, 스택의 아이디어를 활용해봅시다. 
+- [단어순서 뒤집기](https://www.acmicpc.net/problem/12605) : 스택을 이용하지 않아도 되지만, 스택의 아이디어를 활용해봅시다.
+- [숫자 거꾸로 출력하기](https://codeup.kr/problem.php?id=1714)
+- [천단위 구분기호](https://codeup.kr/problem.php?id=2016) : 정규 표현식이라는걸 찾아보시고 사용해보셔도 됩니다. :D
+- [큰 수 덧셈](https://codeup.kr/problem.php?id=3021)
+- [0은 빼!](https://codeup.kr/problem.php?id=3117)
+- [수식 계산1](https://codeup.kr/problem.php?id=3127) : 먼저, 전위, 중위, 후위 표기법에 대해서 먼저 알아보셔도 좋습니다.
+- [좋은 단어](https://www.acmicpc.net/problem/3986)
+- [균형잡힌 세상](https://www.acmicpc.net/problem/4949)
+- [제로](https://www.acmicpc.net/problem/10773)
+- [괄호 끼워넣기](https://www.acmicpc.net/problem/11899)
+- [도키도키 간식드리미](https://www.acmicpc.net/problem/12789)
+- [스택 수열](https://www.acmicpc.net/problem/1874)
+- [쇠막대기](https://www.acmicpc.net/problem/10799) : 조금 어려울 수 있어요. 스킵하셔도 됩니다.
+- [괄호의 값](https://www.acmicpc.net/problem/2504)
+- [안정적인 문자열](https://www.acmicpc.net/problem/4889)
 
 ## 큐는 뭘까요?
 
@@ -195,3 +334,7 @@ FILO(First In, Last Out) 라는 규칙을 가지고 있는데요.
 
 ## 번외 문제
 - [8진수 2진수](https://www.acmicpc.net/problem/1212)
+- [탑](https://www.acmicpc.net/problem/2493) : 이건 어려울 수 있어요.
+- [크게 만들기](https://www.acmicpc.net/problem/2812)
+- [문자열 폭발](https://www.acmicpc.net/problem/9935)
+- [PPAP](https://www.acmicpc.net/problem/16120)

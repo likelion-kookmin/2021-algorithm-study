@@ -4,7 +4,7 @@
 
 | 이름 | 단계 |Github repository |
 |-|-|-|
-| 김신건 | 스터디장 | [repository]() |
+| 김신건 | 스터디장 | [repository](https://github.com/shinkeonkim/Today_PS) |
 | 정지윤 | 걸음마 | [repository](https://github.com/Chungjiyoon/algorithm.git) |
 | 김준엽 | 걷기 | [repository](https://github.com/jun-yub-kim/algorithm_study) |
 | 석준환 | 걷기 | [repository](https://github.com/clark1015/algorithm_study-likelion-) |
@@ -19,7 +19,7 @@
 | 노준영 | 자전거 | [repository](https://github.com/JunYoung0131/2021_algorithm_study) |
 | 허태정 | 자전거 | [repository](https://github.com/Aqudi/AlgorithmProblems) |
 | 권소예 | 자전거 | [repository](https://github.com/soyekwon/Algorithm.git) |
-| 이기정 | 자동차 | [repository]() |
+| 이기정 | 자동차 | [repository](https://github.com/kkIIun/algorithm) |
 
 
 ## 스터디 진행 방식
