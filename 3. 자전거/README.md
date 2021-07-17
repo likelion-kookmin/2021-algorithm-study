@@ -350,16 +350,36 @@ python에서는 또.. 리스트로 구현할 수 있습니다.ㅎㅎ
 
 ## 해쉬는 뭘까요?
 
-## 해쉬를 이용한 문제를 풀어볼까요?
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+python에서는 해쉬를 굉장히 손쉽게 써오고 있었습니다.
 
+바로 dictionary릃 이용해서 말이죠.
+
+해쉬는 복잡한 이론까지 가면 굉장히 복잡할 수 있는 자료구조이지만... 우리는 이것만 기억합시다.
+
+> "Key와 Value가 있는 자료구조"
+
+> Key를 통해 Value를 조회하는 로직으로, 문제 풀이방식을 바꿀 수 있다.!
+
+python에서는 쉽게 쓸 수 있다고 했으니, C++ 에서는 어떻게 해야 할까요?
+
+물론, 직접 구현해서 써도 됩니다. 해쉬 자체를 공부하기 위해서라면 좋지만..
+
+우리는 해쉬를 써서 알고리즘 문제 풀이를 하는 것이니 조금 더 쉽게, STL의 map을 써보겠습니다.
+
+map 문법을 모두 다루기엔... 이미 작성된 것이 많으니 아래 링크를 남기겠습니다 ㅎㅎ
+
+[map 설명 1](https://blockdmask.tistory.com/87)
+
+[map 설명 2](https://life-with-coding.tistory.com/305)
+
+## 해쉬를 이용한 문제를 풀어볼까요?
+- [No Duplicates](https://www.acmicpc.net/problem/15098)
+- [회사에 있는 사람](https://www.acmicpc.net/problem/7785)
+- [베스트셀러](https://www.acmicpc.net/problem/1302)
+- [나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)
+- [CD](https://www.acmicpc.net/problem/4158)
+- [배부른 마라토너](https://www.acmicpc.net/problem/10546)
+- [동일한 단어 그룹화하기](https://www.acmicpc.net/problem/16499)
 
 ## 이제 자동차를 타러 가봅시다! 부릉부릉 🚘
 
